@@ -1,0 +1,74 @@
+.button {
+    font-size: 1rem;
+    font-family: var(--type-first);
+    cursor: pointer;
+    border: none;
+    border-radius: .4rem;
+    background: #fb1;
+    min-width: 8rem;
+    color: #835f3e;
+    padding: .8rem 1.2rem;
+    box-sizing: border-box;
+    transition: .2s;
+  }
+  
+  .button:hover, 
+  .button:focus{
+    outline: none;
+    box-shadow: 0 0 0 3px #fea, 0 0 0 2px #fb1;
+  }
+  
+  /* Button login e cadastro */
+  .buttonAcc {
+    font-size: 1.2rem;
+    font-family: var(--type-first);
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    border-radius: .4rem;
+    background: rgb(133, 110, 91);
+    width: 100%;
+    color: #fff;
+    padding: .8rem 1.2rem;
+    box-sizing: border-box;
+    transition: .2s;
+    box-shadow: 3px 4px 5px rgb(0 0 0 / 30%);
+  }
+  
+  .buttonAcc:hover, 
+  .buttonAcc:focus{
+    outline: none;
+    box-shadow: 0 0 0 3px #f0af8a, 0 0 0 2px #925b13;
+  }
+
+
+  /* Button salvar */
+  .buttonSave {
+    width: 105px;
+    height: 70px;
+    background: rgb(133, 110, 91);
+    color: #F9F9F9;
+    border: none;
+    border-radius: 6px;
+    font-family: var(--type-second);
+    font-weight: 500;
+    margin: 0 auto;
+    transition: .2s;
+    font-size: 1.2rem;
+    box-shadow: 3px 4px 5px rgb(0 0 0 / 30%);
+  }
+  
+  .buttonSave:hover, 
+  .buttonSave:focus{
+    outline: none;
+    box-shadow: 0 0 0 3px #eeb784, 0 0 0 2px #914d00;
+  }
+  
+  buttonSave
+  
+  .button:disabled, 
+  .buttonAcc:disabled, 
+  .buttonFaz:disabled {
+    opacity: .5;
+    cursor: wait;
+  }

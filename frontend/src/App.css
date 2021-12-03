@@ -44,3 +44,25 @@
   border-radius: 2rem;
   overflow-y: auto;
 }
+
+@media (min-width: 576px){
+  .modalAdesivo .modal-dialog {
+    max-width: 50vw !important;
+    margin-top: 10vh;
+  }
+  .modalWarning .modal-dialog {
+    max-width: 15vw !important;
+    color: #E41838;
+    text-align: center;
+  }
+  .modal-dialog {
+    max-width: 600px !important;
+  }
+}
+
+.modal-content {
+  background: rgb(194, 187, 180) !important;
+  border-radius: 1.2rem !important;
+  border: 0.25px solid #cfcfcf !important;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%) !important;
+}

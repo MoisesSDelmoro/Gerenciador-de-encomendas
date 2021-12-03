@@ -3,7 +3,7 @@ import { Modal, Button } from 'react-bootstrap'
 import { observer } from 'mobx-react'
 import { EncomendaContext } from '../../api/context'
 
-const ModalRemove = observer(({encomenda}) => {
+const ModalRemove = observer(({ encomenda }) => {
 
     const { data, encomendaGet, encomendaDelete } = React.useContext(EncomendaContext);
 
@@ -15,17 +15,18 @@ const ModalRemove = observer(({encomenda}) => {
 
     useEffect(() => {
         function fetchEncomenda() {
-          if (data && reload>0) {
-            encomendaGet(data.id)
-          }
+            if (data && reload > 0) {
+                encomendaGet(data.id)
+            }
         }
         fetchEncomenda();
-      }, [reload]);
+    }, [reload]);
 
     const handleDelete = () => {
         encomendaDelete(encomenda.id)
         setShow(false)
-        setReload(1)
+        setReload(reload + 1)
+        window.location.reload();
     }
 
 

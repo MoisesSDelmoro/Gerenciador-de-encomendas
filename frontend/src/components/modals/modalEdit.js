@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { EncomendaContext } from '../../api/context'
 import { ButtonAcc } from '../button/button'
 import { Modal, Button } from 'react-bootstrap'
@@ -8,9 +8,8 @@ import Input from '../../components/input/input'
 
 
 const ModalEdit = observer(({ encomenda, origem, destino, peso, date }) => {
-    const { data, encomendaEdit } = React.useContext(EncomendaContext)
+    const { encomendaEdit } = React.useContext(EncomendaContext)
     const [show, setShow] = React.useState(false)
-    // const [reload, setReload] = React.useState(0)
 
     const handleClose = () => { clearInputs(); setShow(false) }
     const handleShow = () => { fillInputs(); setShow(true) }
@@ -25,8 +24,8 @@ const ModalEdit = observer(({ encomenda, origem, destino, peso, date }) => {
             data: date.value
         }
         encomendaEdit(body)
-        // setReload(reload + 1)
         handleClose()
+        window.location.reload();
     }
 
     function clearInputs() {
@@ -77,6 +76,12 @@ const ModalEdit = observer(({ encomenda, origem, destino, peso, date }) => {
                             </Container>
                         </Modal.Body>
                         <Modal.Footer style={{ justifyContent: "center" }}>
+                            <ButtonAcc
+                                style={{ width: '80px', height: '35px', fontWeight: 'normal', padding: '0', backgroundColor: '#ff7777' }}
+                                onClick={handleClose}
+                            >
+                                Cancelar
+                            </ButtonAcc>
                             <ButtonAcc
                                 style={{ width: '80px', height: '35px', fontWeight: 'normal', padding: '0' }}
                                 onClick={handleSubmit}

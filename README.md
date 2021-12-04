@@ -30,7 +30,7 @@ CREATE TABLE `C216-L1`.`encomenda` (
   PRIMARY KEY (`id`));
 ````
 
-6. Expanda o schema ```C216-L1```, clique o botão direito em ```Tables```, clique em ```Refresh All```,clique com o botão direito na tabela recém criada, clique em ```Select Rows - Limit 1000``` e verifique se a listagem ocorreu com sucesso (nenhuma linha deve ser retornada).
+:six: Expanda o schema ```C216-L1```, clique o botão direito em ```Tables```, clique em ```Refresh All```,clique com o botão direito na tabela recém criada, clique em ```Select Rows - Limit 1000``` e verifique se a listagem ocorreu com sucesso (nenhuma linha deve ser retornada).
 
 ---
 # :seedling: Preparação do projeto
@@ -88,7 +88,7 @@ CREATE TABLE `C216-L1`.`encomenda` (
   
 ---
   
-## 👥 Desenvolvedor
+## :wink: Desenvolvedor
 
 <table  style="text-align:center; border: none" >
 <tr>
@@ -105,7 +105,6 @@ CREATE TABLE `C216-L1`.`encomenda` (
   
 ### :calling: Contato
   
----
 [![Linkedin Badge](https://img.shields.io/badge/-Moises-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/moises-s-delmoro-8747651ba/)](https://www.linkedin.com/in/moises-s-delmoro-8747651ba/)
 
 ---

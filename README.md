@@ -33,7 +33,7 @@ CREATE TABLE `C216-L1`.`encomenda` (
 :six: Expanda o schema ```C216-L1```, clique o botão direito em ```Tables```, clique em ```Refresh All```,clique com o botão direito na tabela recém criada, clique em ```Select Rows - Limit 1000``` e verifique se a listagem ocorreu com sucesso (nenhuma linha deve ser retornada).
 
 ---
-# :seedling: Preparação do projeto
+# :seedling: Preparação do Projeto
 
 :warning: Siga as instruções abaixo passo à passo na ordem descrita.
 

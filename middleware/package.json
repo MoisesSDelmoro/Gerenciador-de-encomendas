@@ -13,5 +13,8 @@
     "mysql": "^2.18.1",
     "restify": "^8.6.0",
     "restify-cors-middleware": "^1.1.1"
+  },
+  "devDependencies": {
+    "cypress": "^9.1.0"
   }
 }

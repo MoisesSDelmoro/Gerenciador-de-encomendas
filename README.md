@@ -10,9 +10,9 @@ Implementação do teste prático de C216-L1 (2021/2).
 ---
 # :seedling: Preparação do Banco de Dados
 
-:one: Baixe e instale o banco de dados <a href="https://dev.mysql.com/downloads/mysql/"> MySQL Community Server </a>.
+:one: Baixe e instale o banco de dados <a href="https://dev.mysql.com/downloads/mysql/"> MySQL Community Server </a> se não tiver instalado.
 
-:two: Baixe e instale o <a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench</a>.
+:two: Baixe e instale o <a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench</a> se não tiver instalado.
 
 :three: Execute o MySQL Workbench, conecte-se à instância local e crie o schema 'C216-L1'. Para isto, clique com o botão direito na lista de schemas > ```Create Schema... ``` > ```Schema Name: C216-L1``` > ```Character Set: Default Charset``` > ```collation: Default Collation``` > ```Apply``` > ```Apply``` > ```Close```.
 
@@ -40,7 +40,7 @@ CREATE TABLE `C216-L1`.`encomenda` (
 
 :warning: Siga as instruções abaixo passo à passo na ordem descrita.
 
-- Baixe e instale o <a href="https://nodejs.org/en/">Node.js<a> se não tiver instalado.
+- :grey_exclamation: Baixe e instale o <a href="https://nodejs.org/en/">Node.js<a> se não tiver instalado.
   
 
 ## :one: Clone o repositório 
@@ -48,28 +48,28 @@ CREATE TABLE `C216-L1`.`encomenda` (
 
 ## :two: Configurando o BackEnd
 
-- 2.1 Entre no diretório do middleware: ``` $ cd C216-L1-1417\middleware ```
+- :one: Entre no diretório do middleware: ``` $ cd C216-L1-1417\middleware ```
 
-- 2.2. Instale as dependências: ```$ npm install ```
+- :two: Instale as dependências: ```$ npm install ```
 
-- 2.2. Para executar o middleware: ``` $ node index.js ```
+- :three: Para executar o middleware: ``` $ node index.js ```
 
 ## :three: Configurando o FrontEnd
   
-- 3.1 Em um novo terminal, entre no diretório do frontend: ``` $ cd C216-L1-1417\frontend ```
+- :one: Em um novo terminal, entre no diretório do frontend: ``` $ cd C216-L1-1417\frontend ```
 
-- 3.2. Instale as dependências: ``` $ npm install ```
+- :two: Instale as dependências: ``` $ npm install ```
 
-- 3.3. Para executar o frontend: ``` $ npm start ```  
+- :three: Para executar o frontend: ``` $ npm start ```  
 
 
 ## :four: Executando os testes automatizados via Cypress. 
   
-- 4.1 Em um novo terminal, entre no diretório do test: ``` $ cd C216-L1-1417\middleware\ ```
+- :one: Em um novo terminal, entre no diretório do test: ``` $ cd C216-L1-1417\middleware\ ```
   
-- 4.2. Execute: ``` $ npx cypress open ```, após isso, será aberta uma janela de controle do Cypress.
+- :two: Execute: ``` $ npx cypress open ```, após isso, será aberta uma janela de controle do Cypress.
 
-- 4.3. Clique no nome do arquivo ```test_index.js``` e será aberto uma aba do navegador que executará os testes automaticamente!
+- :three: Clique no nome do arquivo ```test_index.js``` e será aberto uma aba do navegador que executará os testes automaticamente!
   
 ---
   

@@ -5,6 +5,9 @@ Implementação do teste prático de C216-L1 (2021/2).
 
 ---
 
+<h3 align="center">✅ Concluído ✅</h3>
+
+---
 # :seedling: Preparação do Banco de Dados
 
 :one: Baixe e instale o banco de dados <a href="https://dev.mysql.com/downloads/mysql/"> MySQL Community Server </a>.

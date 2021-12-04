@@ -3,21 +3,23 @@
 # C216-L1-1417
 Implementação do teste prático de C216-L1 (2021/2).
 
-## Preparação do Banco de Dados
+---
 
-1. Baixe e instale o banco de dados <a href="https://dev.mysql.com/downloads/mysql/"> MySQL Community Server </a>.
+# :seedling: Preparação do Banco de Dados
 
-2. Baixe e instale o <a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench</a>.
+:one: Baixe e instale o banco de dados <a href="https://dev.mysql.com/downloads/mysql/"> MySQL Community Server </a>.
 
-3. Execute o MySQL Workbench, conecte-se à instância local e crie o schema 'C216-L1'. Para isto, clique com o botão direito na lista de schemas > ```Create Schema... ``` > ```Schema Name: C216-L1``` > ```Character Set: Default Charset``` > ```collation: Default Collation``` > ```Apply``` > ```Apply``` > ```Close```.
+:two: Baixe e instale o <a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench</a>.
 
-4. Execute a seguinte query SQL para verificar que o schema foi criado com sucesso:
+:three: Execute o MySQL Workbench, conecte-se à instância local e crie o schema 'C216-L1'. Para isto, clique com o botão direito na lista de schemas > ```Create Schema... ``` > ```Schema Name: C216-L1``` > ```Character Set: Default Charset``` > ```collation: Default Collation``` > ```Apply``` > ```Apply``` > ```Close```.
+
+:four: Execute a seguinte query SQL para verificar que o schema foi criado com sucesso:
 ```
 SELECT * FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = 'C216-L1';
 ```
 Deve ser retornada uma linha com as informações referentes ao schema.
 
-5. Crie a tabela que armazenará os dados do Teste Prático. Para isto, copie e execute o script abaixo:
+:five: Crie a tabela que armazenará os dados do Teste Prático. Para isto, copie e execute o script abaixo:
 ```
 CREATE TABLE `C216-L1`.`encomenda` (
   `id` INT NOT NULL AUTO_INCREMENT,
@@ -31,44 +33,44 @@ CREATE TABLE `C216-L1`.`encomenda` (
 6. Expanda o schema ```C216-L1```, clique o botão direito em ```Tables```, clique em ```Refresh All```,clique com o botão direito na tabela recém criada, clique em ```Select Rows - Limit 1000``` e verifique se a listagem ocorreu com sucesso (nenhuma linha deve ser retornada).
 
 ---
-# Preparação do projeto
+# :seedling: Preparação do projeto
 
-Siga as instruções abaixo passo a passo na ordem descrita.
+:warning: Siga as instruções abaixo passo à passo na ordem descrita.
 
-Baixe e instale o <a href="https://nodejs.org/en/">Node.js<a> se não tiver instalado.
+- Baixe e instale o <a href="https://nodejs.org/en/">Node.js<a> se não tiver instalado.
   
 
-### 1. Clone o repositório 
+## :one: Clone o repositório 
 ``` $ git clone https://github.com/MoisesSDelmoro/C216-L1-1417.git ```
 
-### 2. Configurando o BackEnd
+## :two: Configurando o BackEnd
 
-2.1 Entre no diretório do middleware: ``` $ cd C216-L1-1417\middleware ```
+- 2.1 Entre no diretório do middleware: ``` $ cd C216-L1-1417\middleware ```
 
-2.2. Instale as dependências: ```$ npm install ```
+- 2.2. Instale as dependências: ```$ npm install ```
 
-2.2. Para executar o middleware: ``` $ node index.js ```
+- 2.2. Para executar o middleware: ``` $ node index.js ```
 
-### 3. Configurando o FrontEnd
+## :three: Configurando o FrontEnd
   
-3.1 Em um novo terminal, entre no diretório do frontend: ``` $ cd C216-L1-1417\frontend ```
+- 3.1 Em um novo terminal, entre no diretório do frontend: ``` $ cd C216-L1-1417\frontend ```
 
-3.2. Instale as dependências: ``` $ npm install ```
+- 3.2. Instale as dependências: ``` $ npm install ```
 
-3.3. Para executar o frontend: ``` $ npm start ```  
+- 3.3. Para executar o frontend: ``` $ npm start ```  
 
 
-### 4. Executando os testes automatizados via Cypress. 
+## :four: Executando os testes automatizados via Cypress. 
   
-4.1 Em um novo terminal, entre no diretório do test: ``` $ cd C216-L1-1417\middleware\ ```
+- 4.1 Em um novo terminal, entre no diretório do test: ``` $ cd C216-L1-1417\middleware\ ```
   
-4.2. Execute: ``` $ npx cypress open ```, após isso, será aberta uma janela de controle do Cypress.
+- 4.2. Execute: ``` $ npx cypress open ```, após isso, será aberta uma janela de controle do Cypress.
 
-4.3. Clique no nome do arquivo "test_index.js" e será aberto uma aba do navegador que executará os testes automaticamente!
+- 4.3. Clique no nome do arquivo ```test_index.js``` e será aberto uma aba do navegador que executará os testes automaticamente!
   
 ---
   
-## Tecnologias Utilizadas
+## :white_check_mark: Tecnologias Utilizadas
 <a href="https://nodejs.org/en/" target="_blank"><img height="42" src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" />
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank"><img height="42" src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png" />
 <a href="https://pt-br.reactjs.org/" target="_blank"><img height="42" src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" />
@@ -78,7 +80,7 @@ Baixe e instale o <a href="https://nodejs.org/en/">Node.js<a> se não tiver inst
     
 ---
   
-## Interface Web e Ambiente de testes
+## :collision: Interface Web e Ambiente de testes
 <p align="left">
 <img height="355" src="https://user-images.githubusercontent.com/57488202/144708618-4fd427f0-d9bc-4117-afa7-f5779a77d29a.png" alt="moisessdelmoro" />
 <img height="355" src="https://user-images.githubusercontent.com/57488202/144708674-d766b26b-7ac5-4ac0-bd04-25dda035a398.png" alt="moisessdelmoro" />
@@ -101,7 +103,7 @@ Baixe e instale o <a href="https://nodejs.org/en/">Node.js<a> se não tiver inst
 
 ---
   
-### Contato
+### :calling: Contato
   
 ---
 [![Linkedin Badge](https://img.shields.io/badge/-Moises-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/moises-s-delmoro-8747651ba/)](https://www.linkedin.com/in/moises-s-delmoro-8747651ba/)

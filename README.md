@@ -32,38 +32,53 @@ CREATE TABLE `C216-L1`.`encomenda` (
 
 ---
 # Preparação do projeto
-Baixe e instale o <a href="https://nodejs.org/en/">Node.js<a>
+
+Siga as instruções abaixo passo a passo na ordem descrita.
+
+Baixe e instale o <a href="https://nodejs.org/en/">Node.js<a> se não tiver instalado.
+  
 
 ### 1. Clone o repositório 
 ``` $ git clone https://github.com/MoisesSDelmoro/C216-L1-1417.git ```
 
-### 2. Configurando o BackEnd.
+### 2. Configurando o BackEnd
 
-2.1 Entre no diretório do middleware. ``` $ cd C216-L1-1417\middleware ```
+2.1 Entre no diretório do middleware: ``` $ cd C216-L1-1417\middleware ```
 
-2.2. Instale as dependências ```$ npm install ```
+2.2. Instale as dependências: ```$ npm install ```
 
-2.2. Para executar. ``` $ node index.js ```
+2.2. Para executar o middleware: ``` $ node index.js ```
 
-### 3. Configurando o FrontEnd.
+### 3. Configurando o FrontEnd
   
-3.1 Entre no diretório do middleware. ``` $ cd C216-L1-1417\frontend ```
+3.1 Em um novo terminal, entre no diretório do frontend: ``` $ cd C216-L1-1417\frontend ```
 
-3.2. Instale as dependências ``` $ npm install ```
+3.2. Instale as dependências: ``` $ npm install ```
 
-3.3. Para executar. ``` $ npm start ```  
+3.3. Para executar o frontend: ``` $ npm start ```  
 
 
-### 4. Configurando o Test via Cypress. 
+### 4. Executando os testes automatizados via Cypress. 
   
-4.1 Entre no diretório do test. ``` $ cd C216-L1-1417\middleware\ ```
+4.1 Em um novo terminal, entre no diretório do test: ``` $ cd C216-L1-1417\middleware\ ```
   
-4.2. Abre e gerenciador de arquivos do Cypress ``` $ npx cypress open ```
+4.2. Execute: ``` $ npx cypress open ```, após isso, será aberta uma janela de controle do Cypress.
 
-4.3. Clique no arquivo "test_index.js", após isso, uma aba do navegador será aberta e executará os testes automaticamente!
+4.3. Clique no nome do arquivo "test_index.js" e será aberto uma aba do navegador que executará os testes automaticamente!
   
 ---
-# Interface Web e Ambiente de testes
+  
+## Tecnologias Utilizadas
+<a href="https://nodejs.org/en/" target="_blank"><img height="42" src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" />
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank"><img height="42" src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png" />
+<a href="https://pt-br.reactjs.org/" target="_blank"><img height="42" src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" />
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank"><img height="42" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png" />
+<a href="https://www.cypress.io/" target="_blank"><img height="42" src="https://avatars.githubusercontent.com/u/8908513?s=280&v=4" />
+<a href="https://www.mysql.com/" target="_blank"><img height="42" src="https://www.blogson.com.br/wp-content/uploads/2020/12/logo-mysql-mysql-logo-png-images-are-download-crazypng-211.png" />
+    
+---
+  
+## Interface Web e Ambiente de testes
 <p align="left">
 <img height="355" src="https://user-images.githubusercontent.com/57488202/144708618-4fd427f0-d9bc-4117-afa7-f5779a77d29a.png" alt="moisessdelmoro" />
 <img height="355" src="https://user-images.githubusercontent.com/57488202/144708674-d766b26b-7ac5-4ac0-bd04-25dda035a398.png" alt="moisessdelmoro" />

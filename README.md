@@ -1,10 +1,10 @@
+[![License](https://img.shields.io/apm/l/vim-mode?color=blue)](http://badges.mit-license.org)
+
 # C216-L1-1417
 Implementação do teste prático de C216-L1 (2021/2).
 
-## 1. Clone o repositório
-```bash
-git clone https://github.com/MoisesSDelmoro/C216-L1-1417.git
-```
+## 1. Clone o repositório 
+``` $ git clone https://github.com/MoisesSDelmoro/C216-L1-1417.git ```
 
 ## 2. Configurando o BackEnd.
 

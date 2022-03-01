@@ -1,7 +1,7 @@
 [![License](https://img.shields.io/apm/l/vim-mode?color=blue)](http://badges.mit-license.org)
 
-# C216-L1-1417
-Implementação do teste prático de C216-L1 (2021/2).
+# Gerenciador de encomendas
+Implementação do teste prático de C216-L1-1417 (2021/2).
 
 ---
 
